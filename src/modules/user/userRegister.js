@@ -7,6 +7,16 @@ export default function useReqister(req, res) {
     password: req.body.password,
   });
 
-  newUser.save();
-  res.status(200).json('userRegister here');
+  newUser.save()
+    .then(() => {
+      res.status(200).json('User created');
+    })
+    .catch((err) => {
+      console.log(err);
+      res.status(400).json('User NOT created');
+
+    })
+    .finally(() => {
+      console.log('END');
+    });
 }
