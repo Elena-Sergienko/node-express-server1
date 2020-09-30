@@ -1,8 +1,11 @@
 import User from './Model';
 
-export default function userGetAll(req, res) {
+export default function userUpdateById(req, res) {
+
+  const userId = req.params.userId;
+
   User
-    .find()
+    .findByIdAndUpdate(userId, )
     .limit()
     .skip()
     .exec()
