@@ -1,8 +1,11 @@
 import User from './Model';
 
-export default function useGetAll(req, res) {
+export default function useGetById(req, res) {
+
+  const userId = req.params.userId;
+
   User
-    .find()
+    .findById(userId)
     .limit()
     .skip()
     .exec()
