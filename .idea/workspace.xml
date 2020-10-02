@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdabdbe7-93df-4317-8a14-1e27f6726048" name="Default Changelist" comment="Update (s.6 #9 - 12:05)">
-      <change beforePath="$PROJECT_DIR$/src/modules/user/userUpdateById.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/userUpdateById.js" afterDir="false" />
+    <list default="true" id="cdabdbe7-93df-4317-8a14-1e27f6726048" name="Default Changelist" comment="Update (s.6 #9 - 17:04)">
+      <change afterPath="$PROJECT_DIR$/src/modules/user/userDeleteById.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/user/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/Routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +134,7 @@
       <workItem from="1600033769866" duration="5844000" />
       <workItem from="1600325051032" duration="4697000" />
       <workItem from="1600484839336" duration="627000" />
-      <workItem from="1600719746450" duration="11881000" />
+      <workItem from="1600719746450" duration="12734000" />
     </task>
     <task id="LOCAL-00001" summary="Update (s.6 #4  User Create. Handling with then, catch, finally)">
       <created>1600326655631</created>
@@ -190,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601614759132</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update (s.6 #9 - 17:04)">
+      <created>1601615413083</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601615413083</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +226,8 @@
     <MESSAGE value="Update (s.6 #9 - 6:46)" />
     <MESSAGE value="Update (s.6 #9 - 6:47)" />
     <MESSAGE value="Update (s.6 #9 - 12:05)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update (s.6 #9 - 12:05)" />
+    <MESSAGE value="Update (s.6 #9 - 17:04)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update (s.6 #9 - 17:04)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="412" key="#ESLint" timestamp="1599600895483">
@@ -312,10 +322,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601432693809" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601614768154">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601615423084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601614768154" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601615423084" />
     <state x="0" y="0" width="1664" height="645" key="dock-window-1" timestamp="1599521869300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
