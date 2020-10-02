@@ -5,15 +5,13 @@ export default function userUpdateById(req, res) {
   const userId = req.params.userId;
 
   User
-    .findByIdAndUpdate(userId, )
-    .limit()
-    .skip()
+    .findByIdAndUpdate(userId, req.body)
     .exec()
-    .then(result => {
+    .then((result) => {
       res.status(200).json(result);
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
-      res.status(400).json('User get all ERROR');
+      res.status(400).json('User update ERROR');
     });
 }

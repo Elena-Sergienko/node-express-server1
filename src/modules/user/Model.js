@@ -11,7 +11,8 @@ const userSchema = new Schema({
     type: String,
     required: true,
     select: false,
-  }
+  },
+  name: String,
 
 });
 
