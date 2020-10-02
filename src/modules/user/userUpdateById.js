@@ -4,8 +4,10 @@ export default function userUpdateById(req, res) {
 
   const userId = req.params.userId;
 
+  delete req.body.password;
+
   User
-    .findByIdAndUpdate(userId, req.body)
+    .updateOne({_id: userId}, req.body)
     .exec()
     .then((result) => {
       res.status(200).json(result);
