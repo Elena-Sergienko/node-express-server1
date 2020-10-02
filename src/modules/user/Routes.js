@@ -4,6 +4,7 @@ import userGetAll from './userGetAll';
 import userGetById from './userGetById';
 import userUpdateById from './userUpdateById';
 import userDeleteById from './userDeleteById';
+import userDeleteAll from './userDeleteAll';
 
 const router = Router();
 
@@ -12,6 +13,7 @@ router.get('/', userGetAll); // GET: localhost:5002/user
 router.get('/:userId', userGetById); // GET: localhost:5002/user/989998...
 router.patch('/:userId', userUpdateById); // PATCH: localhost:5002/user/9899898...
 router.delete('/:userId', userDeleteById); // Delete: localhost:5002/user/9899898...
+router.delete('/', userDeleteAll); // Delete: localhost:5002/user
 
 
 export default router;
